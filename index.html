@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+  .heading{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: skyblue;
+    text-align: center;
+  }
+
+  .face{
+  
+    position: relative;
+    left: 40%;
+  
+  }
+
+  .joker {
+    width: 500px; 
+    height: 300px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .joker{
+      width: 100%;
+    }
+}
+</style>
+
+<head>
+  <title>Web Dev Blog</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header> <!--1)-->
+    <nav>  <!--4)-->
+      <ul>
+        <li><a href="#">Week 1</a></li>
+        <li><a href="#">Week 2</a></li>
+        <li><a href="#">Week 3</a></li>            
+      </ul>
+    </nav>
+    <div class="heading">
+    <h1>Welcome to My Web Design &amp; Development Portfolio!</h1> 
+    </div>
+    <p>A site featuring my latest work and the things I've learnt.</p>
+  </header>
+  
+  <section>  <!--3)-->
+    <div class="heading">
+      <h2>Week 1</h2> 
+    </div>
+    <h2>Intro to HTML</h2>
+    <img src="002-shrek-meme.jpg" alt="HTML Image" width= "300" height= "300">
+    <p>Things I've learnt in Week 1:</p>
+    <ul>
+      <li>essential tags of HTML</li>
+      <li>uploading images onto a website</li>
+      <li>embedding youtube link onto a website</li>     
+    </ul>
+  </section>
+
+  <section>  <!--3)-->
+    <div class="heading">
+      <h2>Week 2</h2> 
+    </div>
+    <img src="mondayleftmebroken.jpg" alt="HTML Image" width= "300" height= "300">
+    <p>Things I've learnt in Week 2:</p>
+    <ul>
+      <li>common semantic tags of HTML</li>
+      <li>aligning the text using CSS</li>
+      <li>changing font and colors using CSS</li>     
+    </ul>
+  </section>
+
+  <section>  <!--3)-->
+    <div class="heading">
+      <h2>Week 3</h2> 
+    </div>
+    <img src="meme face.jpeg" alt="HTML Image" width= "300" height= "300" class="face">
+    <p>Things I've learnt in Week 3:</p>
+
+    <ul>
+      <li>positioning of text and images using CSS (box method)</li>     
+      <li>through playing the flexboxfroggy game, I learned about flexbox</li>
+    </ul>
+
+    <input type="checkbox" id="box" name="box" value="box">
+    <label for="box">creating checkbox for forms</label><br>
+
+    <input type="radio" id="radio" name="buttons" value="buttons">
+    <label for="radio">creating radio buttons for forms</label><br>
+
+    <textarea placeholder="how to create a form using HTML" id="others" name="others" rows="4" cols="80"></textarea><br><br>
+  </section>
+
+  <section> 
+    <div class="heading">
+      <h2>Week 4</h2>
+      
+    </div>
+    <img src="joker.jpeg" alt="HTML Image" class="joker">
+    <p>Things I've learnt in Week 4:</p>
+    <ul>
+      <li>creating a responsive image by resizing image based on the screen size.</li>
+      
+    </ul>
+  </section>
+
+  <section>
+    <div class="heading">
+      <h2>Week 5</h2>
+    </div> 
+    <p>Things I've Learnt about javascript in Week 5:</p>
+    <img src="quiz 1.png" alt="HTML Image" width= "600" height= "300"> 
+    <img src="quiz 2.png" alt="HTML Image" width= "600" height= "300">
+    <img src="quiz 3.png" alt="HTML Image" width= "600" height= "300">
+    <img src="quiz 4.png" alt="HTML Image" width= "600" height= "300">
+    <img src="quiz 5.png" alt="HTML Image" width= "600" height= "300">
+    <ul>
+      <li>The === operator compares values &amp; data types, whereas the == operator only compares values</li>
+      <li>The or operator uses ||</li>
+      <li>both decimal and integers are labelled as numbers</li>
+      <li>ternary operator is a one line if else statement</li>
+      <li>do while loop will run at least once even if there is an error in the code</li>
+      <li>set can be used to remove duplicates in an array</li>
+      
+    </ul>
+  </section>
+  
+  <footer>  <!--2)-->
+  <p>&copy; 2023 My Portfolio</p>
+  <p>Follow me on <a href="#">Twitter</a>, <a href="#">Instagram</a> and <a href="#">Dribbble</a></p>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+/*
+img {
+  height: 100%;
+  width: 100%;
+}*/
+
+body{
+    background-color: #FFEBCD;
+  }
+  
+  h1{
+    color: #ff1493;
+  }
+  
+  h2{
+    color: #ff1493;
+  }
+  
+  p{
+    color: darkgreen;
+  }
+  
+  h1 {
+    font-size: 30px;
+  }
+  
+  p {
+    font-size: 17;
+  }
+  
+  ul {
+    font-size: 15px;
+  }
